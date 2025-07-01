@@ -1,5 +1,8 @@
 ## Personal Config
 
+> [!WARNING]
+> This is my personal config. Not meant to work on a different machine.
+
 <table>
     <tbody>
         <tr>
