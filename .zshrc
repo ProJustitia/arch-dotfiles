@@ -181,3 +181,9 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 
 eval "$(zoxide init zsh)"
 
+# Load keychain and add your key
+
+
+eval "$(keychain --eval id_ed25519 2>/dev/null | grep -v '^ \*')"
+
+
